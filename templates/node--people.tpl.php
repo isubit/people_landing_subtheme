@@ -76,7 +76,7 @@
                 <div class="isu-people_cv">
                   <i class="fa fa-file-text-o"></i>
                   <?php 
-                    $url = file_create_url($field_people_cv['und']['0']['uri']);
+                    $url = file_create_url($field_people_cv['0']['uri']);
                     $url = parse_url($url);
                     $path = $url['path']; 
 
