@@ -1,0 +1,271 @@
+.front #page-title { display: none; }
+
+.front .tabs { display: none; }
+
+.front.node-type-people .section-content .container-12 {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.front.node-type-people .section-content .grid-12 {
+  width: 100%;
+  margin: 0;
+}
+
+.isu-people_container {
+  position: relative;
+  width: 92%;
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.isu-people_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 576px) { 
+  .isu-people_row { 
+    margin-right: -15px; 
+    margin-left: -15px; 
+  } 
+}
+
+@media (min-width: 768px) { 
+  .isu-people_row { 
+    margin-right: -15px;
+    margin-left: -15px; 
+  } 
+}
+
+.isu-people_col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.isu-people_profile-section {
+  padding: 2rem 0;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ccc;
+}
+
+.isu-people_contact-item a:link {
+  text-decoration: none;
+}
+
+.isu-people_image-col {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .isu-people_image-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.isu-people_image-col img {
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .isu-people_image-col img {
+    max-width: 100%;
+  }
+}
+
+.isu-people_profile-col {
+  width: 100%;
+  max-width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.isu-people_name {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.isu-people_name h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+@media (max-width: 400px), (max-height: 500px) {
+  .isu-people_name h2 {
+    font-size: 1.75rem;
+  }
+}
+
+.isu-people_position {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+@media (max-width: 400px), (max-height: 500px) {
+  .isu-people_position {
+    font-size: 1.1rem;
+  }
+}
+
+.isu-people_bio-summary {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 576px) {
+  .isu-people_address-col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .isu-people_address-col {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .isu-people_email-col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .isu-people_email-col {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .isu-people_links-col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+.isu-people_address {
+  display: flex;
+  font-size: 1rem;
+}
+
+.isu-people_address .fa,
+.isu-people_email .fa,
+.isu-people_phone .fa ,
+.isu-people_cv .fa, 
+.isu-people_links .fa {
+  width: 1.5rem;
+  margin-top: 3px;
+  color: #777;
+  font-size: 1rem;
+}
+
+.isu-people_info-col {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.isu-people_contact-item {
+  margin-bottom: 2rem;
+}
+
+.isu-people_info-section {
+  padding: 2rem 0;
+}
+
+@media (min-width: 992px) {
+  .isu-people_info-col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+.isu-people_info-col {
+  margin-bottom: 1rem;
+}
+
+/* All cols */
+.isu-people_image-col,
+.isu-people_profile-col,
+.isu-people_address-col
+.isu-people_email-col,
+.isu-people_links-col,
+.isu-people_info-col {
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.isu-people_card {
+  /* Like Bootstrap 4 .card */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100% !important;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.isu-people_card-body {
+  /* Like Bootstrap 4 .card-body */
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.isu-people_card .h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.isu-people_list-unstyled {
+  /* Like Bootstrap 4 .list-unstyled */
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.isu-people_list-unstyled li {
+  padding: 0.25rem 0;
+}
+
+.isu-people_list-unstyled  a:link {
+  text-decoration: none;
+}
+
+.isu-people_content-container-narrow {
+  max-width: 900px;
+  margin: 0 auto;
+}
