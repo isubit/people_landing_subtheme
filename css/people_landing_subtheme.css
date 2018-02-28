@@ -2,6 +2,8 @@
 
 .front .tabs { display: none; }
 
+.field-name-field-people-title-category { display: none; }
+
 .front.node-type-people .section-content .container-12 {
   width: 100%;
   max-width: none;
