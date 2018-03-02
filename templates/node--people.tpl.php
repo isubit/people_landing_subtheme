@@ -75,12 +75,8 @@
               <?php if ($field_people_cv) : ?>
                 <div class="isu-people_cv">
                   <i class="fa fa-file-text-o"></i>
-                  <?php 
-                    $url = file_create_url($field_people_cv['und']['0']['uri']);
-                    $url = parse_url($url);
-                    $path = $url['path']; 
-
-                    echo'<span><a href="' . $path . '">Download CV</a></span>'; 
+                  <?php
+                    echo'<span><a href="' . $cv_url . '">Download CV</a></span>';
                     ?>
                 </div>
               <?php endif ?>
