@@ -13,7 +13,7 @@
 
           <?php if ($field_people_position) : ?>
             <p class="isu-people_position">
-              <?php print $field_people_position['0']['value']; ?>
+              <?php echo implode(', ', array_column($field_people_position, 'value')); ?>
             </p>
           <?php endif ?>
         </div>
