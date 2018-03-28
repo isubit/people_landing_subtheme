@@ -12,4 +12,7 @@ function people_landing_subtheme_alpha_preprocess_node(&$vars) {
     $uri = $file->uri;
     $vars['cv_url'] = file_create_url($uri);
   }
+  if ($vars['node']->type == 'people' && $vars['view_mode'] == 'full') {
+    $vars['theme_hook_suggestions'][] = 'node__people__full';
+  }
 }
